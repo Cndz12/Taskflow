@@ -32,8 +32,11 @@ public class TaskManager
         return true;
     }
 
-    public TaskItem FindById(Guid id)
-    {
-        return tasks[id];
-    }
+    
+public TaskItem? FindById(Guid id)
+{
+    tasks.TryGetValue(id, out var task);
+    return task;
+}
+
 }

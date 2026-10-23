@@ -59,4 +59,15 @@ public class UnitTest1
         Assert.True(result);
         Assert.True(task.IsCompleted);
     }
+    
+[Fact]
+public void DeveRetornarNullQuandoTarefaNaoExistir()
+{
+    var manager = new TaskManager();
+
+    var task = manager.FindById(Guid.NewGuid());
+
+    Assert.Null(task);
+}
+
 }
