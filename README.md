@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # TaskFlow
 
 Aplicação de console desenvolvida em C# com .NET 10 para gerenciar tarefas.
