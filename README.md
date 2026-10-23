@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # TaskFlow
 
@@ -39,3 +40,6 @@ dotnet test
 - .NET 10
 - xUnit
 - Git
+=======
+# Taskflow
+>>>>>>> 876a594718cb02129ffcbecad3500ebe5343b14f
